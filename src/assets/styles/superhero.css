@@ -1,0 +1,40 @@
+.superhero-card{
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.superhero-name{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.superhero-universe,
+.superhero-alterego,
+.superhero-occupation,
+.superhero-friends,
+.superhero-superpowers{
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+.superhero-card span{
+    font-style: italic;
+    font-weight: 600;
+}
+.superhero-url{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.superhero-btn{
+    width: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+}
